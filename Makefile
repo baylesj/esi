@@ -1,8 +1,5 @@
-PRG            =codeblock
-
-OBJ            = $(PRG).o lcd.o
-
-SRCS	       =lab4.c lcd.c
+PRG            = codeblock
+OBJ            = $(PRG).o
 
 MCU_TARGET     = atmega128
 OPTIMIZE       = -O2    # options are 1, 2, 3, s
