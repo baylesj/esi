@@ -200,6 +200,7 @@ int main(int argc, char **argv)
 	usart_init();
 	sei();
 
+	set_thresh();
 	while (1) {
 		check_adc();
 		send_data();
